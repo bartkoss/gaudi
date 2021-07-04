@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+main {
+  font-family: roboto;
+}
+header {
+  background-color: #519cdd;
+  padding: 5px;
+}
+
+  @media (max-width: 447px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 447px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
